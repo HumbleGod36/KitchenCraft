@@ -13,6 +13,7 @@ class HomePageViewController: UIViewController {
     var RdishesData : RecomemdedModelClass?
     var categoryData : CategoryModelClass?
     var dishData : DishModelClass?
+    var VairableADded : Bool?
 
  
     
