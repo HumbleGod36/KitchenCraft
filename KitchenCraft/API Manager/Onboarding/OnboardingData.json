@@ -1,0 +1,18 @@
+[ {
+    "id": 1,
+    "food_image" : "https://www.themealdb.com//images//media//meals//wxywrq1468235067.jpg",
+    "food_header" : "Get A Variety of Choise To Choose!",
+    "food_Disc" : "Find your favourite food anytime and any place you go in and out your city"
+},
+  {
+      "id": 2,
+    "food_image" : "https:\/\/www.themealdb.com\/images\/media\/meals\/xvsurr1511719182.jpg",
+    "food_header" : "Recieve High Quality Food Close To You",
+    "food_Disc" : "Find your favourite food anytime and any place you go in and out your city"
+},{
+    "id": 3,
+    "food_image" : "https:\/\/www.themealdb.com\/images\/media\/meals\/adxcbq1619787919.jpg",
+    "food_header" : "Pick Your Meal At Your Door Steps",
+    "food_Disc" : "Find your favourite food anytime and any place you go in and out your city"
+}
+]

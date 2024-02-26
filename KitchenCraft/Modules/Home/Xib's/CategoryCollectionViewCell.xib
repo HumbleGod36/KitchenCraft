@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CategoryCollectionViewCell" customModule="KitchenCraft" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="236" height="202"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="236" height="202"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t3E-da-g1R">
+                        <rect key="frame" x="0.0" y="59" width="236" height="109"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X66-Pt-4XT">
+                                <rect key="frame" x="0.0" y="0.0" width="236" height="109"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BRA-Bs-IFN">
+                                        <rect key="frame" x="16" y="46" width="204" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="BRA-Bs-IFN" firstAttribute="centerY" secondItem="X66-Pt-4XT" secondAttribute="centerY" id="Noq-cM-lo8"/>
+                                    <constraint firstItem="BRA-Bs-IFN" firstAttribute="leading" secondItem="X66-Pt-4XT" secondAttribute="leading" constant="16" id="Zgc-hK-j6c"/>
+                                    <constraint firstItem="BRA-Bs-IFN" firstAttribute="centerX" secondItem="X66-Pt-4XT" secondAttribute="centerX" id="kPp-PJ-Jcb"/>
+                                    <constraint firstAttribute="trailing" secondItem="BRA-Bs-IFN" secondAttribute="trailing" constant="16" id="sml-DE-9dL"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="X66-Pt-4XT" firstAttribute="leading" secondItem="t3E-da-g1R" secondAttribute="leading" id="ehm-MJ-zXq"/>
+                            <constraint firstItem="X66-Pt-4XT" firstAttribute="top" secondItem="t3E-da-g1R" secondAttribute="top" id="g8u-pK-dhC"/>
+                            <constraint firstItem="X66-Pt-4XT" firstAttribute="centerY" secondItem="t3E-da-g1R" secondAttribute="centerY" id="vng-Yk-384"/>
+                            <constraint firstAttribute="trailing" secondItem="X66-Pt-4XT" secondAttribute="trailing" id="zIh-rK-kky"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="top" secondItem="t3E-da-g1R" secondAttribute="top" id="0QO-wT-Hdd"/>
+                <constraint firstItem="t3E-da-g1R" firstAttribute="bottom" secondItem="ZTg-uK-7eu" secondAttribute="bottom" id="AF2-4Q-0N1"/>
+                <constraint firstItem="t3E-da-g1R" firstAttribute="leading" secondItem="ZTg-uK-7eu" secondAttribute="leading" id="VfV-Ku-Ham"/>
+                <constraint firstItem="t3E-da-g1R" firstAttribute="trailing" secondItem="ZTg-uK-7eu" secondAttribute="trailing" id="s8i-oD-lRW"/>
+            </constraints>
+            <size key="customSize" width="236" height="202"/>
+            <connections>
+                <outlet property="categoryName" destination="BRA-Bs-IFN" id="zS0-Hd-gXS"/>
+            </connections>
+            <point key="canvasLocation" x="213.74045801526717" y="47.887323943661976"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
